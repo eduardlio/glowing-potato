@@ -5,4 +5,5 @@ else
 fi;
 
 gvim resume.md;
-sh ./thing.sh;
+git commit -m "Updated the resume";
+git push origin master;
