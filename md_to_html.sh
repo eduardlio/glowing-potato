@@ -26,8 +26,7 @@ pandoc -f markdown -t html -o $htmlfile.tmp resume.md
 echo '</div>'>> $htmlfile.tmp;
 cat $htmlfile.tmp >> $htmlfile;
 rm $htmlfile.tmp;
-echo $message;
 
-# git add html/output.html
-# git commit -am "$message";
-# git push origin master;
+git add html/output.html
+git commit -am "$message";
+git push origin master;
