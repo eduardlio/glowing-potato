@@ -35,6 +35,8 @@ else
 	echo "File Already Exists: resume.md";
 fi;
 git add resume.md;
+
+# I have this set to gvim but change it to whatever man
 gvim resume.md;
 git commit -am "Updated the resume";
 git push origin master;
