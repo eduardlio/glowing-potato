@@ -34,7 +34,7 @@ if [[ ! -f resume.md ]]; then
 else
 	echo "File Already Exists: resume.md";
 fi;
-
+git add resume.md;
 gvim resume.md;
 git commit -am "Updated the resume";
 git push origin master;
