@@ -5,13 +5,18 @@ if [[ ! -f resume.md ]]; then
 
    echo "## Contact Details" >> $file
    echo "__Phone__: " >> $file
+   echo "" >> $file
    echo "__Email__: " >> $file
+   echo "" >> $file
    echo "__Github__: " >> $file
+   echo "" >> $file
    echo "" >> $file
 
    echo "## Education" >> $file
    echo "Degree, Institution" >> $file
+   echo "" >> $file
    echo "Dates" >> $file
+   echo "" >> $file
    echo "" >> $file
 
    echo "## Languages and Skills" >> $file
@@ -26,6 +31,7 @@ if [[ ! -f resume.md ]]; then
 
    echo "## Work Experience" >> $file
    echo "Role, Place of Employment" >> $file
+   echo "" >> $file
    echo "Description" >> $file
    echo "" >> $file
 
